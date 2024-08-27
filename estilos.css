@@ -1,0 +1,41 @@
+/* seletor universal: aplica pra toda pagina */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* seletor de tipo: aplica para um tipo */
+h1{
+    color: brown;
+    text-align: center;
+    background-color: burlywood;
+}
+
+body{
+    background-color: cornsilk;
+    margin: 0 auto; /*centralizando na tela*/
+    width: 80%;  /* reduzindo o tamanho*/
+}
+/* seletor de id: aplica no id espeficico */
+#subtitulo{
+    font-family: impact;
+    color: red;
+}
+
+/*seletor de classe: 
+aplica onde for especificado a propriedde class*/
+.destaque{
+    font-style: italic;
+}
+
+img{
+    width: 600px;
+    border: 2px red solid;
+}
+
+p{
+    text-align: justify;
+}
+
+li{
+    margin-bottom: 10px;
+}
